@@ -3,6 +3,8 @@
   "description": "Create dapps with one command",
   "version": "1.8.3",
   "bin": "./dist/index.js",
+  "author": "conan",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/techxnode/create-dapp-template/issues"
   },
@@ -12,6 +14,10 @@
       "url": "https://github.com/techxnode"
     }
   ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
   "dependencies": {
     "chalk": "4.1.2",
     "commander": "^9.0.0",
